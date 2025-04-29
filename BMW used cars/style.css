@@ -1,0 +1,172 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(0, 0, 50, 0.6), rgba(0, 0, 50, 0.6)),
+                url('https://cdn.bmwblog.com/wp-content/uploads/2021/07/2022-bmw-5-series-review-00.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+
+.topnavigation {
+    background-color: #003580;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.topnavigation a {
+    color: white;
+    text-decoration: none;
+    margin: 5px 10px;
+    font-size: 16px;
+}
+
+.topnavigation .map-button {
+    background-color: #0056b3;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.page-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.filters label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.filters input,
+.filters select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #003580;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-button {
+    width: 100%;
+    background-color: #0071c5;
+    color: white;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #005999;
+}
+
+.main-content {
+    flex: 1;
+    padding: 30px;
+}
+
+.intro-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.intro-box h1 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.intro-box p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.intro-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.intro-box li {
+    margin-bottom: 5px;
+}
+
+.visit-bmw-button {
+    display: inline-block;
+    background-color: #0071c5;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.visit-bmw-button:hover {
+    background-color: #005999;
+}
+
+.bottom-footer {
+    background-color: #003580;
+    padding: 15px;
+    text-align: center;
+}
+
+.bottom-footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.bottom-footer a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .page-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .topnavigation {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .topnavigation a {
+        margin: 5px 0;
+    }
+}
