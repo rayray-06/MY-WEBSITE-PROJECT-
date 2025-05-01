@@ -18,4 +18,6 @@ Development choices
 - Main content briefly explaining the BMW used cars
 - footer with navigation links
 - link to real BMW used car website
+Screenshot of wireframe and what parts i would add and change 
+![image](https://github.com/user-attachments/assets/df14ea23-17e5-4cf9-b14f-1431ab6ea986)
 
